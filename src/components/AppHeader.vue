@@ -4,9 +4,10 @@
       <span class="lg:text-2xl font-bold">vue-liquid-glass demo</span>
     </template>
     <template #right>
+      <UColorModeButton variant="ghost" />
       <UButton
         color="neutral"
-        variant="soft"
+        variant="ghost"
         to="https://www.npmjs.com/package/@daisigu/vue-liquid-glass"
         target="_blank"
         icon="i-mdi-npm"
@@ -14,7 +15,7 @@
       />
       <UButton
         color="neutral"
-        variant="soft"
+        variant="ghost"
         to="https://github.com/Daisigu/vue-liquid-glass"
         target="_blank"
         icon="i-mdi-github"
