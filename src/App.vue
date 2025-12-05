@@ -61,11 +61,14 @@ const bgFileUrl = ref<
           </template>
         </UPage>
       </UContainer>
-      <UFooter class="border-default border-t" :ui="{
-        center: 'mt-0',
-        container: 'py-2',
-        left: 'mt-0'
-      }">
+      <UFooter
+        class="border-default border-t"
+        :ui="{
+          center: 'mt-0',
+          container: 'py-2',
+          left: 'mt-0',
+        }"
+      >
         <template #default>
           <UButton
             variant="link"
