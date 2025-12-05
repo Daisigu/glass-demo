@@ -1,10 +1,11 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 
-/* Custom scrollbar */
 :root {
     --default-font-family: monospace, ui-monospace, sans-serif;
 }
+
+/* Custom scrollbar */
 
 ::-webkit-scrollbar {
     width: 8px;
