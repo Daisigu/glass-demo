@@ -1,2 +1,26 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
+
+/* Custom scrollbar */
+:root {
+    --default-font-family: monospace, ui-monospace, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background-color-default);
+    border-radius: var(--radius-sm);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--background-color-accented);
+    border-radius: var(--radius-sm);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--background-color-accented);
+}
